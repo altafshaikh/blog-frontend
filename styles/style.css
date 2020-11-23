@@ -25,7 +25,7 @@
 .navigation-container a {
   text-decoration: none;
   color: white;
-  font-size: 13px;
+  font-size: 22px;
 }
 
 html {
@@ -34,5 +34,42 @@ html {
 
 body {
   margin: 0;
+}
+
+.container {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container .blog-detail {
+  width: 80%;
+}
+
+.container .blog-detail .blog-title {
+  font-weight: 900;
+}
+
+.container .blog-detail .blog-img {
+  margin-top: 5px;
+  width: 90%;
+}
+
+.container .blog-detail .blog-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .side-bar {
+  width: 20%;
+}
+
+.container .side-bar .related-link-container {
+  margin: 20px 5px;
+}
+
+.container .side-bar .related-link-container .related-link img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
