@@ -1,5 +1,5 @@
-import { blogImage } from "./blogImage";
-import { blogContent } from "./blogContent";
+import { blogImage } from "./blogImage.js";
+import { blogContent } from "./blogContent.js";
 
 export const blogDetail = (blog) => {
   const blogDetailDiv = document.getElementsByClassName("blog-detail")[0];
