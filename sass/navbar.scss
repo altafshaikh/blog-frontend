@@ -1,0 +1,30 @@
+$nav-bg-color: black;
+
+.logo {
+  height: 50px;
+  width: 150px;
+  margin-left: 20px;
+}
+.navigation {
+  background-color: $nav-bg-color;
+  display: grid;
+  grid-template-columns: 3fr auto;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.navigation-container {
+  ul {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+}

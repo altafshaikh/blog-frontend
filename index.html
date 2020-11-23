@@ -10,7 +10,39 @@
     <meta name="description" content="A simple blog application" />
     <title>Blog Page</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
     <script src="./src/main.js" type="module"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="logo-container">
+          <img
+            class="logo"
+            src="https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/bltc1a71705f49d391d/5de663548d1dce6ad6bed8bf/header-logo.svg?format=pjpg&width=220"
+            alt=""
+          />
+        </div>
+        <div class="navigation-container">
+          <ul>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link button" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div id="ham">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
