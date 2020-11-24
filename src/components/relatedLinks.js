@@ -1,4 +1,5 @@
 import { findBlogById } from "../helper/findBlogById.js";
+import { renderNewBlog } from "./renderNewBlog.js";
 
 export const relatedLinks = (links) => {
   return links.map((link) => {
@@ -21,6 +22,9 @@ export const relatedLinks = (links) => {
 
     div.appendChild(img);
     div.appendChild(p);
+    div.addEventListener("click", () => {
+      renderNewBlog(link.id);
+    });
 
     return div;
   });
