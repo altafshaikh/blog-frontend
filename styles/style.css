@@ -45,6 +45,7 @@ body {
 
 .container .blog-detail {
   width: 80%;
+  margin-top: 0;
 }
 
 .container .blog-detail .blog-title {
@@ -52,8 +53,9 @@ body {
 }
 
 .container .blog-detail .blog-img {
-  margin-top: 5px;
-  width: 90%;
+  width: 85%;
+  height: 65vh;
+  margin: 30px auto;
 }
 
 .container .blog-detail .blog-img img {
