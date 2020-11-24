@@ -18,8 +18,12 @@ export const blogDetail = (blog) => {
   h2.textContent = blog.title;
 
   const span = document.createElement("span");
+  const i = document.createElement("i");
+  i.setAttribute("class", "fa fa-user");
+
   span.classList.add("author");
   span.textContent = blog.author;
+  span.appendChild(i);
 
   const imgDiv = blogImage(blog.imageUrl);
   const contentDiv = blogContent(blog.content);

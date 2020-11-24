@@ -5,6 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 
+$secondary-color: #2f9ee5;
 // * {
 //   border: 1px solid red;
 // }
@@ -33,9 +34,14 @@ body {
       .blog-title {
         font-size: 28px;
         width: 80%;
+        color: $secondary-color;
       }
       .author {
         font-size: 18px;
+        color: black;
+        i {
+          margin: 0 5px;
+        }
       }
       .blog-img {
         width: 100%;
@@ -75,7 +81,7 @@ body {
       .link-title {
         a {
           text-decoration: none;
-          color: black;
+          color: $secondary-color;
         }
       }
     }

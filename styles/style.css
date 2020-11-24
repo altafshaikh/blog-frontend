@@ -87,10 +87,16 @@ body {
 .container .blog-detail .blog-container .blog-title {
   font-size: 28px;
   width: 80%;
+  color: #2f9ee5;
 }
 
 .container .blog-detail .blog-container .author {
   font-size: 18px;
+  color: black;
+}
+
+.container .blog-detail .blog-container .author i {
+  margin: 0 5px;
 }
 
 .container .blog-detail .blog-container .blog-img {
@@ -131,7 +137,7 @@ body {
 
 .container .related-link-container .related-link .link-title a {
   text-decoration: none;
-  color: black;
+  color: #2f9ee5;
 }
 
 @media (max-width: 368.98px) {
