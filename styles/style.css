@@ -95,4 +95,13 @@ body {
 .container .side-bar .related-link-container .related-link img {
   width: 100%;
 }
+
+.container .related-link-container .related-link {
+  cursor: pointer;
+}
+
+.container .related-link-container .related-link .link-title a {
+  text-decoration: none;
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

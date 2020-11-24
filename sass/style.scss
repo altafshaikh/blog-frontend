@@ -65,4 +65,16 @@ body {
       }
     }
   }
+
+  .related-link-container {
+    .related-link {
+      cursor: pointer;
+      .link-title {
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
 }
