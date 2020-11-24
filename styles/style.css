@@ -78,6 +78,10 @@ body {
   height: 100%;
 }
 
+.container .blog-detail .blog-container .blog-content {
+  margin-top: 40px;
+}
+
 .container .blog-detail .blog-container .blog-content .content {
   font-size: 18px;
   line-height: 1.3;

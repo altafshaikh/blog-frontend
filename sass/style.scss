@@ -1,4 +1,4 @@
-@import "./navbar.scss";
+@import "./navbar";
 
 html {
   scroll-behavior: smooth;
@@ -45,6 +45,8 @@ body {
         }
       }
       .blog-content {
+        margin-top: 40px;
+
         .content {
           font-size: 18px;
           line-height: 1.3;
