@@ -45,22 +45,43 @@ body {
 
 .container .blog-detail {
   width: 80%;
-  margin-top: 0;
 }
 
-.container .blog-detail .blog-title {
-  font-weight: 900;
+.container .blog-detail .blog-container {
+  width: 90%;
+  margin: 0 auto;
 }
 
-.container .blog-detail .blog-img {
-  width: 85%;
+.container .blog-detail .blog-container .blog-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .blog-detail .blog-container .blog-title {
+  font-size: 28px;
+  width: 80%;
+}
+
+.container .blog-detail .blog-container .author {
+  font-size: 18px;
+}
+
+.container .blog-detail .blog-container .blog-img {
+  width: 100%;
   height: 65vh;
-  margin: 30px auto;
 }
 
-.container .blog-detail .blog-img img {
+.container .blog-detail .blog-container .blog-img img {
   width: 100%;
   height: 100%;
+}
+
+.container .blog-detail .blog-container .blog-content .content {
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: justify;
 }
 
 .container .side-bar {

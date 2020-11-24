@@ -4,6 +4,7 @@ export const blogContent = (content) => {
 
   const p = document.createElement("p");
   p.textContent = content;
+  p.classList.add("content");
 
   div.appendChild(p);
 
