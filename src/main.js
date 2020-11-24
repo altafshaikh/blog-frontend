@@ -1,6 +1,6 @@
 import { Blogs } from "./data.js";
-import { addBlogToDomByID } from "./components/addBlogToDomByID.js";
+import { renderNewBlog } from "./components/renderNewBlog.js";
 
 window.onload = () => {
-  addBlogToDomByID("2rvqpdbpka3n3fhf");
+  renderNewBlog("2rvqpdbpka3n3fhf");
 };
