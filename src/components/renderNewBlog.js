@@ -11,6 +11,10 @@ export const renderNewBlog = (blogID) => {
     "related-link-container"
   )[0];
 
+  if (sideContentDiv.textContent) {
+    sideContentDiv.textContent = "";
+  }
+
   sideContent.forEach((link) => {
     sideContentDiv.appendChild(link);
   });
