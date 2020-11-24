@@ -1,0 +1,27 @@
+{
+  "name": "blog-render",
+  "version": "1.0.0",
+  "description": "A blog application rendered using js modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ialtafshaikh/blog.git"
+  },
+  "keywords": [
+    "js",
+    "modules",
+    "rendering",
+    "dom",
+    "manipulation",
+    "scss"
+  ],
+  "author": "Altaf Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ialtafshaikh/blog/issues"
+  },
+  "homepage": "https://github.com/ialtafshaikh/blog#readme"
+}
