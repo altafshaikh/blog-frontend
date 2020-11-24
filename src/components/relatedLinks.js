@@ -22,9 +22,11 @@ export const relatedLinks = (links) => {
 
     div.appendChild(img);
     div.appendChild(p);
-    div.addEventListener("click", () => {
-      renderNewBlog(link.id);
-    });
+
+    // this is done using Event Delegation
+    // div.addEventListener("click", () => {
+    //   renderNewBlog(link.id);
+    // });
 
     return div;
   });
