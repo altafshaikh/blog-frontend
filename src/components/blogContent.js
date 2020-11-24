@@ -3,7 +3,7 @@ export const blogContent = (content) => {
   div.classList.add("blog-content");
 
   const p = document.createElement("p");
-  p.textContent(content);
+  p.textContent = content;
 
   div.appendChild(p);
 
