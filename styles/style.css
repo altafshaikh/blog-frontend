@@ -16,6 +16,9 @@
 .navigation-container ul {
   list-style-type: none;
   margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .navigation-container li {
@@ -81,7 +84,7 @@ body {
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 32px;
+  height: 34px;
   /* Hide default HTML checkbox */
 }
 
@@ -115,7 +118,7 @@ body {
   margin: auto 0;
   transition: 0.4s;
   box-shadow: 0 0px 15px #2020203d;
-  background: black url("https://i.ibb.co/FxzBYR9/night.png");
+  background: white url("https://i.ibb.co/FxzBYR9/night.png");
   background-repeat: no-repeat;
   background-position: center;
 }
