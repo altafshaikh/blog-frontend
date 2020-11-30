@@ -54,6 +54,7 @@ body {
   width: 100%;
   height: 100vh;
   background: var(--color-secondary);
+  transition: background 0.4s;
 }
 
 /* The switch - the box around the slider */
