@@ -7,8 +7,9 @@ $nav-bg-color: black;
 }
 .navigation {
   background-color: $nav-bg-color;
-  display: grid;
-  grid-template-columns: 3fr auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 20px;
   margin: 0;
 }
