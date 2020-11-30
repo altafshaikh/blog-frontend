@@ -106,6 +106,21 @@ $secondary-color: #2f9ee5;
 }
 
 @media (max-width: 575.98px) {
+  .navigation {
+    padding: 0;
+  }
+  .navigation-container {
+    ul {
+      margin-right: 0;
+    }
+    li {
+      padding: 0;
+      a {
+        display: none;
+      }
+    }
+  }
+
   .container {
     display: block;
     .blog-detail {

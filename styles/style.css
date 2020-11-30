@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 0 20px;
   margin: 0;
 }
@@ -19,6 +20,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .navigation-container li {
@@ -249,6 +251,18 @@ html {
 }
 
 @media (max-width: 575.98px) {
+  .navigation {
+    padding: 0;
+  }
+  .navigation-container ul {
+    margin-right: 0;
+  }
+  .navigation-container li {
+    padding: 0;
+  }
+  .navigation-container li a {
+    display: none;
+  }
   .container {
     display: block;
   }
