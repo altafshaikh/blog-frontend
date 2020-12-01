@@ -1,14 +1,17 @@
-import { findBlogById } from "../helper/findBlogById.js";
-import { renderNewBlog } from "./renderNewBlog.js";
+const findBlogById = (Blogs, blogID) => {
+  return Blogs.find((blog) => {
+    return blog.id == blogID;
+  });
+};
 
-export const relatedLinks = (links) => {
+export const relatedLinks = (blogs, links) => {
   return links.map((link) => {
     const div = document.createElement("div");
     div.classList.add("related-link");
     div.setAttribute("id", link.id);
 
     const img = document.createElement("img");
-    img.src = findBlogById(link.id).imageUrl;
+    img.src = findBlogById(blogs, link.id).imageUrl;
     img.alt = "alt descp of img";
 
     const p = document.createElement("p");

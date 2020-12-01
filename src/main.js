@@ -4,7 +4,10 @@ import { handleClick } from "./helper/handleClick.js";
 import { toggleTheme, setTheme } from "./helper/darkTheme.js";
 
 window.onload = () => {
-  renderNewBlog("2rvqpdbpka3n3fhe");
+  Blogs.then((blogs) => {
+    console.log(blogs);
+    renderNewBlog(blogs[1].id);
+  });
   document
     .getElementsByClassName("related-link-container")[0]
     .addEventListener("click", handleClick);
