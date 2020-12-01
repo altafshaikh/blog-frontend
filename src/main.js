@@ -5,7 +5,6 @@ import { toggleTheme, setTheme } from "./helper/darkTheme.js";
 
 window.onload = () => {
   Blogs.then((blogs) => {
-    console.log(blogs);
     renderNewBlog(blogs[1].id);
   });
   document
