@@ -1,10 +1,11 @@
-import { Blogs } from "./data.js";
+import { Json } from "./data.js";
 import { renderNewBlog } from "./components/renderNewBlog.js";
 import { handleClick } from "./helper/handleClick.js";
 import { toggleTheme, setTheme } from "./helper/darkTheme.js";
 
 window.onload = () => {
-  Blogs.then((blogs) => {
+  Json.then((blogs) => {
+    console.log(blogs);
     renderNewBlog(blogs[1].id);
   });
   document

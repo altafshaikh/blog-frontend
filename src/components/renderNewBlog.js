@@ -1,9 +1,9 @@
-import { Blogs } from "../data.js";
+import { Json } from "../data.js";
 import { blogDetail } from "./blogDetail.js";
 import { relatedLinks } from "./relatedLinks.js";
 
 export const renderNewBlog = (blogID) => {
-  Blogs.then((blogs) => {
+  Json.then((blogs) => {
     const blog = blogs.find((blog) => {
       return blog.id == blogID;
     });
@@ -22,5 +22,7 @@ export const renderNewBlog = (blogID) => {
     sideContent.forEach((link) => {
       sideContentDiv.appendChild(link);
     });
+  }).catch((err) => {
+    console.log(err);
   });
 };
