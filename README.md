@@ -31,6 +31,7 @@ A vanilla JS application which fetches data from a external API in JSON format a
 
 ## Sample Working
 
+![blog-rendering-demo-gif](https://github.com/ialtafshaikh/static-files/raw/master/gifs/blog-rendering.gif)
 
 
 ### Downloading and Running this Project Locally
