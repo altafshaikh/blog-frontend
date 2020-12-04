@@ -8,6 +8,7 @@ window.onload = () => {
     console.log(blogs);
     renderNewBlog(blogs[1].id);
   });
+
   document
     .getElementsByClassName("related-link-container")[0]
     .addEventListener("click", handleClick);
@@ -23,5 +24,3 @@ window.onload = () => {
     }
   })();
 };
-
-// https://niravkpatel28.github.io/json-data-server/blogs/blogs.json
