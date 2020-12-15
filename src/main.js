@@ -3,6 +3,11 @@ import { renderNewBlog } from "./components/renderNewBlog.js";
 import { handleClick } from "./helper/handleClick.js";
 import { toggleTheme, setTheme } from "./helper/darkTheme.js";
 
+//webpack
+import "../sass/style.scss";
+
+// webpackend
+
 window.onload = () => {
   Json.then((blogs) => {
     console.log(blogs);
