@@ -11,8 +11,8 @@ module.exports = {
     filename: "bundle.js",
   },
   module: {
-    rules: [{ test: /\.js$/, exclude: /node_modules/ }],
     rules: [
+      { test: /\.js$/, exclude: /node_modules/ },
       { test: /\.css$/, use: [MiniCssExtractPlugin.loader, "css-loader"] },
       { test: /\.ts$/, use: "ts-loader" },
       { test: /\.(png|jpg|jpeg)$/, use: "file-loader" },
