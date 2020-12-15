@@ -41,5 +41,5 @@ module.exports = {
       filename: "style.css",
     }),
   ],
-  // mode:"development"
+  mode: "development",
 };
