@@ -9,6 +9,7 @@ A vanilla JS application which fetches data from a blog backend by making variou
 - create html blog markup and related links markup
 - and Renders all the blog and related link component on the HTML DOM
 - dynamically render the blog on the same page on clicking the related link for better user experience
+- [check the backend of this blog app here](https://github.com/ialtafshaikh/extented-blog-backend)
 
 ## Additional Features
 
