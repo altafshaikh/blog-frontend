@@ -10,7 +10,6 @@ export const renderNewBlog = (blogID) => {
   );
   fetch(endpoint, { headers: myHeaders, mode: "cors" })
     .then((response) => {
-      console.log(response);
       if (response.ok) {
         return response.json();
       }

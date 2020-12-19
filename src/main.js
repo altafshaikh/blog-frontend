@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   fetch(endpoint, { headers: myHeaders, mode: "cors" })
     .then((response) => {
-      console.log(response);
       if (response.ok) {
         return response.json();
       }
