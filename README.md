@@ -1,11 +1,9 @@
 
 # Blog Rendering
 
-A Blog rendering application build using vanilla JS.
+A Blog rendering application communicating with a backend server.
 
-## Getting Started
-
-A vanilla JS application which fetches data from a external API in JSON format and creates  blog markup and related links markup and renders all the components on the HTML DOM (Web Page)
+A vanilla JS application which fetches data from a blog backend by making various external API calls and creates  blog markup and related links markup and renders all the components on the HTML DOM (Web Page)
 
 - fetch json data using **FETCH API** asynchronously
 - create html blog markup and related links markup
