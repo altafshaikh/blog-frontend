@@ -16,7 +16,7 @@ module.exports = {
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/ },
-      { test: /\.css$/, use: [MiniCssExtractPlugin.loader, "css-loader"] },
+      { test: /\.css$/, use: ["style-loader", "css-loader"] },
       { test: /\.ts$/, use: "ts-loader" },
       {
         test: /\.(png|jpg|jpeg)$/,
@@ -45,22 +45,23 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "index.html"),
       filename: "index.html",
-      chunks: [index],
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       filename: "login.html",
-      template: path.join(__dirname, "pages", "cse.html"),
+      template: path.join(__dirname, "login.html"),
       chunks: ["login"],
     }),
     new HtmlWebpackPlugin({
       filename: "signup.html",
-      template: path.join(__dirname, "pages", "raw.html"),
+      template: path.join(__dirname, "signup.html"),
       chunks: ["signup"],
     }),
 
     new MiniCssExtractPlugin({
       filename: "style.css",
     }),
+
     new CleanWebpackPlugin(),
   ],
   mode: "development",
