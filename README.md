@@ -22,6 +22,7 @@ A vanilla JS application which fetches data from a blog backend by making variou
 7. css written in **scss**
 8. modular code and standard practices followed
 9. user authentication based on **JWT** Token
+10. hosted on netlify
 
 ### Prerequisites
 
