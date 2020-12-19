@@ -1,4 +1,6 @@
 import { signup } from "../endpoints.js";
+//webpack
+import "../../styles/form.css";
 
 window.onload = () => {
   document.forms.signup.addEventListener("submit", formSubmission);

@@ -5,7 +5,7 @@ import { endpoint } from "./endpoints.js";
 import { logout } from "./auth/logout.js";
 
 //webpack
-// import "../sass/style.scss";
+import "../sass/style.scss";
 
 // webpackend
 
