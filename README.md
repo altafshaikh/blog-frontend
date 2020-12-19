@@ -40,11 +40,22 @@ A vanilla JS application which fetches data from a blog backend by making variou
 
 
 ### Downloading and Running this Project Locally
+
 1. clone the repository using below command
 ```
 git clone https://github.com/ialtafshaikh/blog
 ```
-2. And run the index.html using Live server
+2. open terminal in the project directory
+3. install all node packages using bellow command
+```
+npm install
+```
+4. run the webpack build using
+```
+nm run build
+```
+5. open the dist folder And run the index.html using Live server
+
 
 ## Deployment
 
