@@ -1,24 +1,26 @@
 const findBlogById = (Blogs, blogID) => {
   return Blogs.find((blog) => {
-    return blog.id == blogID;
+    return blog.blogID == blogID;
   });
 };
 
 export const relatedLinks = (blogs, links) => {
   return links.map((link) => {
+    const blog = findBlogById(blogs, link.blogID);
+
     const div = document.createElement("div");
     div.classList.add("related-link");
-    div.setAttribute("id", link.id);
+    div.setAttribute("id", blog.blogID);
 
     const img = document.createElement("img");
-    img.src = findBlogById(blogs, link.id).imageUrl;
+    img.src = blog.imageUrl;
     img.alt = "alt descp of img";
 
     const p = document.createElement("p");
     p.classList.add("link-title");
 
     const a = document.createElement("a");
-    a.textContent = link.title;
+    a.textContent = blog.title;
     a.href = "#";
 
     p.appendChild(a);
