@@ -1,5 +1,5 @@
 
-# Blog Rendering
+# Blog Frontend Rendering App
 
 A Blog rendering application communicating with a backend server.
 
