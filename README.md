@@ -59,11 +59,10 @@ nm run build
 
 ## Deployment
 
-To Host the Project I had used Github Pages. To learn more [visit her](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1)
+To Host the Project I had used **Netlify**. To learn more [visit her](https://levelup.gitconnected.com/how-to-host-domain-to-netlify-site-for-free-step-by-step-guide-45d0c2102db3)
 
 ## Live Demo of this Project
 
-[Live Working](https://ialtafshaikh.github.io/employee-list-renderer/)
 
 ## References
 
@@ -81,6 +80,7 @@ To Host the Project I had used Github Pages. To learn more [visit her](https://t
 - [SASS crash course video](https://www.youtube.com/watch?v=Zz6eOVaaelI)
 - [JWT token](https://jwt.io/introduction/)
 - [Getting Started with webpack](https://webpack.js.org/guides/getting-started/)
+- [Netlify Docs](https://docs.netlify.com/?_ga=2.82925014.1913184765.1608386492-124520266.1606201970)
 
 
 ## Author
