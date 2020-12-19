@@ -28,7 +28,7 @@ const formSubmission = (event) => {
       //   console.log("jwt=" + data.data[0]["jwt"]);
       document.cookie = "";
       document.cookie = "jwt=" + data.data[0]["jwt"];
-      window.location.href = `${document.location.origin}/blog-frontend/`;
+      window.location.href = `${document.location.origin}/`;
     })
     .catch((error) => {
       console.error("Error:", error);
