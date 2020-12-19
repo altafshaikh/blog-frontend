@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Blog | Todos</title>
+    <link rel="stylesheet" href="./styles/form.css" />
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <h1 class="form-title">Post Your Blog</h1>
+
+        <form
+          action=""
+          method="POST"
+          name="createBlog"
+          enctype="multipart/form-data"
+        >
+          <label for="title"><b>Title</b></label>
+          <input
+            type="text"
+            placeholder="Enter blog title"
+            name="title"
+            required
+          />
+          <br />
+
+          <label for="content"><b>Content</b></label>
+          <textarea
+            name="content"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="enter blog content here"
+          ></textarea>
+          <br />
+
+          <label for="banner"><b>Upload Image</b></label>
+          <input type="file" name="banner" required />
+          <br />
+
+          <input type="submit" class="createBlog" value="Create Blog" />
+        </form>
+      </div>
+    </main>
+    <script
+      src="../blog-frontend/src/helper/createBlog.js"
+      type="module"
+    ></script>
+  </body>
+</html>
