@@ -64,6 +64,7 @@ To Host the Project I had used **Netlify**. To learn more [visit her](https://le
 
 ## Live Demo of this Project
 
+[hosted app link - open app](https://blog-frontend.netlify.app)
 
 ## References
 
