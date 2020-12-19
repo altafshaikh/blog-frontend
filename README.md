@@ -1,29 +1,36 @@
 
-# Blog Rendering
+# Blog Frontend Rendering App
 
-A Blog rendering application build using vanilla JS.
+A Blog rendering application communicating with a backend server.
 
-## Getting Started
+A vanilla JS application which fetches data from a blog backend by making various external API calls and creates  blog markup and related links markup and renders all the components on the HTML DOM (Web Page)
 
-A vanilla JS application which fetches data from a external API in JSON format and creates  blog markup and related links markup and renders all the components on the HTML DOM (Web Page)
-
-- fetch json data using **FETCH API** asynchronously
+- make api calls and fetch json data using **FETCH API** asynchronously
 - create html blog markup and related links markup
 - and Renders all the blog and related link component on the HTML DOM
 - dynamically render the blog on the same page on clicking the related link for better user experience
+- [check the backend of this blog app here](https://github.com/ialtafshaikh/extented-blog-backend)
 
 ## Additional Features
 
 1. Implemented **Event Delegation** for Better Performance and to Reduce the no of events listener on the web page
 2. Persistent user dark mode preference
 3. Fully Mobile Responsive App
+4. user authentication implemented
+5. signin,login, logout UI and functionality
+6. bundled using **Webpack**
+7. css written in **scss**
+8. modular code and standard practices followed
+9. user authentication based on **JWT** Token
+10. hosted on netlify
 
 ### Prerequisites
 
-- You need to have a basic knowledge of **HTML**, **CSS** and **JavaScript**, **variables**, **arrays**, **functions** and **objects**,  **Asynchronous JS**, **SCSS** under your belt. 
+- You need to have a basic knowledge of **HTML**, **CSS** and **JavaScript**, **SCSS**, **variables**, **arrays**, **functions** and **objects**,  **Asynchronous JS**, **SCSS** under your belt. 
 - Additionally, you need to have [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03),   [VS Code](https://code.visualstudio.com/download) text editor installed on your computer.
 - [Fetch API to fetch data from api](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 - [SASS Tutorial Documentation](https://sass-lang.com/guide)
+- [JWT token](https://jwt.io/introduction/)
 
 
 #### VS code Extension
@@ -35,19 +42,30 @@ A vanilla JS application which fetches data from a external API in JSON format a
 
 
 ### Downloading and Running this Project Locally
+
 1. clone the repository using below command
 ```
 git clone https://github.com/ialtafshaikh/blog
 ```
-2. And run the index.html using Live server
+2. open terminal in the project directory
+3. install all node packages using bellow command
+```
+npm install
+```
+4. run the webpack build using
+```
+nm run build
+```
+5. open the dist folder And run the index.html using Live server
+
 
 ## Deployment
 
-To Host the Project I had used Github Pages. To learn more [visit her](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1)
+To Host the Project I had used **Netlify**. To learn more [visit her](https://levelup.gitconnected.com/how-to-host-domain-to-netlify-site-for-free-step-by-step-guide-45d0c2102db3)
 
 ## Live Demo of this Project
 
-[Live Working](https://ialtafshaikh.github.io/employee-list-renderer/)
+[hosted app link - open app](https://blog-frontend.netlify.app)
 
 ## References
 
@@ -63,6 +81,10 @@ To Host the Project I had used Github Pages. To learn more [visit her](https://t
 - [Event Delegation video](https://www.youtube.com/watch?v=3KJI1WZGDrg)
 - [SASS Tutorial Documentation](https://sass-lang.com/guide)
 - [SASS crash course video](https://www.youtube.com/watch?v=Zz6eOVaaelI)
+- [JWT token](https://jwt.io/introduction/)
+- [Getting Started with webpack](https://webpack.js.org/guides/getting-started/)
+- [Netlify Docs](https://docs.netlify.com/?_ga=2.82925014.1913184765.1608386492-124520266.1606201970)
+
 
 ## Author
 
