@@ -45,7 +45,7 @@ A vanilla JS application which fetches data from a blog backend by making variou
 
 1. clone the repository using below command
 ```
-git clone https://github.com/ialtafshaikh/blog
+git clone https://github.com/altafshaikh/blog-frontend.git
 ```
 2. open terminal in the project directory
 3. install all node packages using bellow command
@@ -63,9 +63,6 @@ nm run build
 
 To Host the Project I had used **Netlify**. To learn more [visit her](https://levelup.gitconnected.com/how-to-host-domain-to-netlify-site-for-free-step-by-step-guide-45d0c2102db3)
 
-## Live Demo of this Project
-
-[hosted app link - open app](https://blog-frontend.netlify.app)
 
 ## References
 
@@ -88,7 +85,7 @@ To Host the Project I had used **Netlify**. To learn more [visit her](https://le
 
 ## Author
 
-* **Altaf Shaikh** - *work by* - [ialtafshaikh](https://github.com/ialtafshaikh)
+* **Altaf Shaikh** - *work by* - [altafshaikh](https://github.com/altafshaikh)
 
 ![altaf shaikh](https://raw.githubusercontent.com/ialtafshaikh/static-files/master/coollogo_com-327551664.png)
 
